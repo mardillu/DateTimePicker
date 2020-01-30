@@ -596,7 +596,7 @@ public class DatePicker extends FrameLayout {
         } else {
             imeOptions = EditorInfo.IME_ACTION_DONE;
         }
-        TextView input = (TextView) NPicker
+        TextView input = NPicker
                 .findViewById(R.id.number_picker_edit_text);
         input.setImeOptions(imeOptions);
     }
